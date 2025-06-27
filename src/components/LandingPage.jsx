@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export default function LandingPage() {
   return (
-    <div className='w-full h-[100%] pt-1 bg-zinc-900'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.4" className='w-full h-[100%] pt-1 bg-zinc-900'>
       <div className="textstructure mt-52 px-20">
         {['we create', 'Eye-Opening', 'Presentations'].map((item, index) => {
           return <div className="masker text-[7.5vw] leading-[7vw] tracking-tighter  font-['Founders_Grotesk_X-condensed'] font-medium">

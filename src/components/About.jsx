@@ -2,7 +2,7 @@ import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
 function About() {
   return (
-    <div className='w-full py-20 bg-[#cdea68] rounded-tl-[10px] rounded-tr-[10px]'>
+    <div data-scroll data-scroll-speed="-.3" className='w-full py-20 bg-[#cdea68] rounded-tl-[10px] rounded-tr-[10px]'>
       <div className="text w-[85vw] px-12  text-5xl text-zinc-900 font-[Neue_Montreal] leading-12">
         <h1>
             Ochi is a strategic presentation agency for forward-thinking businesses that need to <span className='underline'> raise funds, sell prod­ucts, ex­plain com­plex ideas,</span> and <span className='underline'> hire great peo­ple.</span>

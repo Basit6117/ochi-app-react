@@ -19,8 +19,8 @@ function Eyes() {
   }, []);
   console.log(rotate);
   return (
-    <div className='w-full h-screen '>
-        <div className=' relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
+    <div className='w-full h-screen overflow-hidden '>
+        <div data-scroll data-scroll-speed="-.7" className=' relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
         <div className="absolute flex gap-12 w-1/3 h-36  top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
         <div className="rounded-full flex items-center justify-center w-[15vw] h-[15vw] bg-white">
           <div className="relative rounded-full h-2/3 w-2/3 flex items-center justify-center bg-black">
